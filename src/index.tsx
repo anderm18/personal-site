@@ -1,16 +1,30 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Box } from '@mui/material';
+import HeaderDisplay from './components/HeaderDisplay';
+import About from './components/About';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import { Footer } from './components/Footer';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+    <Box sx={{backgroundColor: '#13263a', background: 'linear-gradient(rgba(250,0,0,0.5),transparent)', height: 'auto', backgroundSize: '100%'}}>
+      <Box sx={{backgroundColor: '#13263a', background: 'linear-gradient(transparent, rgba(0,0,250,0.5))',  height: 'auto', backgroundSize: '100%'}}>
+        <HeaderDisplay />
+      </Box>
+    </Box>
+    <About />
+    <Experience />
+    <Projects />
+    <Footer />
+
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,0 +1,43 @@
+{
+    "header":"Interning @ IBM",
+    "about-info": "Hello! I'm Michael, a 4th year Computer Science student finishing up my studies at the Rensselaer Polytechnic Institute, ready to dive into the dynamics of the modern tech world. Equipped with a strong foundation in software development gained from professional, casual, and educational experiences, along with a passion for innovation, I always try to bring a unique perspective to every project or group that I work with. I strive to deliver the most efficient solution to any problem, allowing for scalability and reliability in what's delivered. I'm always open to new opportunities, so feel free to reach out!",
+    "experienceGallery": [
+        {
+            "company": "IBM",
+            "position": "Backend Development Intern"
+        },
+        {
+            "company": "Rensselaer Student Union",
+            "position": "Full Stack Developer and System Administrator"
+        },
+        {
+            "company": "Rensselaer Center for Open Source",
+            "position": "Program Coordinator and Development Lead"
+        }
+    ],
+    "projectGallery": [
+        {
+            "project": "HASS Pathways",
+            "title": "Project and Development Lead",
+            "link": "https://hasspathways.com",
+            "description": "An Interactive Solution to allow new/current Rensselaer students to view their Humanities and Social Science required Graduation Pathways, as well create, edit, and plan out the rest of their pathway to fit their individual needs."
+            
+        },
+        {
+            "project": "Find My Commits",
+            "title": "Creator and Maintainer",
+            "link": "https://github.com/anderm18/FindMyCommits",
+            "description": "A tool to gather commit statistics on remote GitHub repositories based on user criteria. Made to be used by the Rensselaer Center for Open Source, it includes an Electron desktop tool that uses Machine Learning to suggest a marking for student performance."
+        },
+        {
+            "project": "GaiNNs",
+            "title": "Project and Development Lead",
+            "link": "https://github.com/anderm18/GaiNNs",
+            "description": "GaiNNs helps teach those unfamiliar with Neural Networking and Genetic Algorithms with a drag-and-drop Environment building tool. It includes a Genetic Algorithm to learn to 'complete' your environment. A simple, easy to use, learning tool."
+        }
+    ],
+    "email": "michael.j.andeson@me.com",
+    "phone": "+1 (508) - 367 - 7920",
+    "github": "https://github.com/anderm18",
+    "linkedin": "https://linkedin.com/in/anderm18"
+}

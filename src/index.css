@@ -1,13 +1,182 @@
+/* App.css */
+
+/* General Styling */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: #fff;
+}
+
+.heading {
+  font-size: 24px;
+  margin: 0;
+}
+
+.nav-menu {
+  margin-top: 10px;
+}
+
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #20232a;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-tagline {
+  color: #fff;
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Sections */
+.section {
+  padding: 80px 0;
+  background-color: #181c22;
+  color: #fff;
+}
+
+.section h2 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* About Section */
+.about-content p {
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #181c22;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Skills Section */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.skill-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.skill-name {
+  font-size: 18px;
+}
+
+/* Portfolio Section */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.portfolio-item {
+  background-color: #20232a;
+  color: #fff;
+  padding: 20px;
+}
+
+.portfolio-item img {
+  width: 100%;
+}
+
+.portfolio-details {
+  margin-top: 10px;
+}
+
+.portfolio-details h3 {
+  margin: 0;
+}
+
+.portfolio-details p {
+  margin-bottom: 10px;
+}
+
+/* Blog Section */
+.blog-list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.blog-post {
+  background-color: #20232a;
+  color: #fff;
+  padding: 20px;
+}
+
+.blog-post h3 {
+  margin: 0;
+}
+
+/* Contact Section */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  background-color: #fff;
+  color: #181c22;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background-color: #282c34;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
 }
