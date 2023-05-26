@@ -22,13 +22,15 @@ function About(): JSX.Element {
             threshold: 0
         });
 
-        if (tarRef.current) {
-            watcher.observe(tarRef.current);
+        const curRef = tarRef.current;
+
+        if (curRef) {
+            watcher.observe(curRef);
         }
 
         return () => {
-            if(tarRef.current) {
-                watcher.unobserve(tarRef.current);
+            if(curRef) {
+                watcher.unobserve(curRef);
             }
         };
     }, []);

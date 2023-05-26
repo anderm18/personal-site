@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, Card, CardContent, Fade, Grow, Typography } from "@mui/material";
+import { Avatar, Box, Button, Card, CardContent, Grow, Typography } from "@mui/material";
 import Info from '../assets/info.json';
 import iconOne from '../assets/icon1.svg';
 import iconTwo from '../assets/icon2.jpg';
@@ -46,13 +46,15 @@ export default function Experience() {
             threshold: 0
         });
 
-        if (tarRef.current) {
-            watcher.observe(tarRef.current);
+        const curRef = tarRef.current;
+
+        if (curRef) {
+            watcher.observe(curRef);
         }
 
         return () => {
-            if(tarRef.current) {
-                watcher.unobserve(tarRef.current);
+            if(curRef) {
+                watcher.unobserve(curRef);
             }
         };
     }, []);
