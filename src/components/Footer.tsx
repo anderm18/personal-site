@@ -32,7 +32,7 @@ export function Footer() {
                     </Toolbar>
                 </Box>
                 <Typography align="center" sx={{ fontSize: '11pt', fontFamily: 'montserrat', color: '#e7ebef' }}>
-                    I made this site using React. You can find the Source Code <a href="google.com">here</a>
+                    I made this site using React and deploy it on Azure. You can find the Source Code <a href="google.com">here</a>
                 </Typography>
             </CardContent>
         </Box>
