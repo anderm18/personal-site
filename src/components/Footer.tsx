@@ -1,4 +1,4 @@
-import {  Box, CardContent, Grid, Toolbar, Tooltip, Typography } from "@mui/material";
+import {  Box, CardContent, Toolbar, Tooltip, Typography } from "@mui/material";
 import EmailIcon from '@mui/icons-material/Email';
 import CallIcon from '@mui/icons-material/Call';
 import GitHubIcon from '@mui/icons-material/GitHub';
