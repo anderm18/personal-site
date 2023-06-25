@@ -4,12 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 I built and maintain this site to act as an online software portfolio and whatever else I decide to use it for in the future. It's hosted on [Azure](https://azure.microsoft.com/) using the Static Web App service, and my domain's handled by Google.
 
+See the live site [here](https://www.michaeljanderson.net)
+
 
 ## Development
 
 Want to use part of my React Code? Go ahead! Here's some npm scripts you'll need to know, provided by Create-React-App:
-
-In the project directory, you can run:
 
 ### `npm start`
 
