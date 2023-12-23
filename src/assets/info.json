@@ -24,16 +24,16 @@
             
         },
         {
-            "project": "Find My Commits",
-            "title": "Creator and Maintainer",
-            "link": "https://github.com/anderm18/FindMyCommits",
-            "description": "A tool to gather commit statistics on remote GitHub repositories based on user criteria. Made to be used by the Rensselaer Center for Open Source, it includes an Electron desktop tool that uses Machine Learning to suggest a marking for student performance."
+            "project": "Tree Ring Origins",
+            "title": "Co-Creator and Maintainer",
+            "link": "https://github.com/averyiorio/TreeRingOrigin",
+            "description": "A novel machine learning model that uses Computational Vision to detect where a tree was harvested based on only its tree ring widths. The project aims to prevent illegal logging in the United States by acting as a verification tool to ensure the location of origin of a supplier's lumber before it is sold to a distributor."
         },
         {
-            "project": "GaiNNs",
-            "title": "Project and Development Lead",
-            "link": "https://github.com/anderm18/GaiNNs",
-            "description": "GaiNNs helps teach those unfamiliar with Neural Networking and Genetic Algorithms with a drag-and-drop Environment building tool. It includes a Genetic Algorithm to learn to 'complete' your environment. A simple, easy to use, learning tool."
+            "project": "HealthChat",
+            "title": "Creator",
+            "link": "https://devpost.com/software/healthchat-yapo3v",
+            "description": "HackRPI X Winner, HealthChat is a Web application that can be used across any device. Its goal is to offer medical information and assistance to those in new or different areas, as well as those just looking for who to see for an issue. HealthChat uses the Bing Chat AI engine in order to combine the power of GPT-4 and Bing to search for what specialty doctor fits a patients medical issue and takes their insurance, as well suggests possible causes."
         }
     ],
     "email": "michael.j.anderson@me.com",
