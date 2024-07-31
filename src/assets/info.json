@@ -1,19 +1,19 @@
 {
-    "header":"Interning @ IBM",
-    "about-info": "Hello! I'm Michael, a 4th year Computer Science student finishing up my studies at the Rensselaer Polytechnic Institute, ready to dive into the dynamics of the modern tech world. Equipped with a strong foundation in software development gained from professional, casual, and educational experiences, along with a passion for innovation, I always try to bring a unique perspective to every project or group that I work with. I strive to deliver the most efficient solution to any problem, allowing for scalability and reliability in what's delivered. I'm always open to new opportunities, so feel free to reach out!",
+    "header":"SWE @ IBM",
+    "about-info": "Hello! I'm Michael, a recent Computer Science graduate from the Rensselaer Polytechnic Institute, ready to dive into the dynamics of the modern tech world. Equipped with a strong foundation in software development gained from professional, casual, and educational experiences, along with a passion for innovation, I always try to bring a unique perspective to every project or group that I work with. I strive to deliver the most efficient solution to any problem, allowing for scalability and reliability in what's delivered. I'm always open to new opportunities, so feel free to reach out!",
     "experienceGallery": [
         {
             "company": "IBM",
-            "position": "Backend Development Intern"
+            "position": "Backend SWE / Backend Development Intern"
         },
+        {
+            "company": "Plug Power",
+            "position": "Full Stack SWE Intern"
+        }
         {
             "company": "Rensselaer Student Union",
-            "position": "Full Stack Developer and System Administrator"
+            "position": "Lead Full Stack Developer and System Administrator"
         },
-        {
-            "company": "Rensselaer Center for Open Source",
-            "position": "Program Coordinator and Development Lead"
-        }
     ],
     "projectGallery": [
         {
