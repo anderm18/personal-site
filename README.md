@@ -9,7 +9,7 @@ See the live site [here](https://www.michaeljanderson.net)
 
 ## Development
 
-Want to use part of my React Code? Go ahead! Here's some npm scripts you'll need to know, provided by Create-React-App:
+Want to use part of my React Code? Go ahead, and drop a star while you're at it 😄! Here's some npm scripts you'll need to know, provided by Create-React-App:
 
 ### `npm start`
 
