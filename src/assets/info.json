@@ -1,10 +1,10 @@
 {
     "header":"SWE @ IBM",
-    "about-info": "Hello! I'm Michael, a recent Computer Science graduate from the Rensselaer Polytechnic Institute, ready to dive into the dynamics of the modern tech world. Equipped with a strong foundation in software development gained from professional, casual, and educational experiences, along with a passion for innovation, I always try to bring a unique perspective to every project or group that I work with. I strive to deliver the most efficient solution to any problem, allowing for scalability and reliability in what's delivered. I'm always open to new opportunities, so feel free to reach out!",
+    "about-info": "Hello! I'm Michael, I'm a Software Engineer equipped with a strong technical foundation gained from professional, casual, and educational experiences. Since achieving my degree, I've been exploring my passion for innovation and pushing the software world forward. I always try to bring a unique perspective to every project or group that I work with. I strive to deliver the most efficient solution to any problem, allowing for scalability and reliability in what's delivered. I'm always open to new opportunities, so feel free to reach out!",
     "experienceGallery": [
         {
             "company": "IBM",
-            "position": "Backend SWE / Backend Development Intern"
+            "position": "Software Engineer / (Prev. Position: SWE Intern)"
         },
         {
             "company": "Plug Power",
@@ -20,20 +20,20 @@
             "project": "HASS Pathways",
             "title": "Project and Development Lead",
             "link": "https://hasspathways.com",
-            "description": "An Interactive Solution to allow new/current Rensselaer students to view their Humanities and Social Science required Graduation Pathways, as well create, edit, and plan out the rest of their pathway to fit their individual needs."
+            "description": "An interactive solution to allow new/current Rensselaer students to view their Humanities and Social Science required Graduation Pathways, as well create, edit, and plan out the rest of their pathway to fit their individual needs."
             
         },
         {
             "project": "Tree Ring Origins",
             "title": "Co-Creator and Maintainer",
             "link": "https://github.com/averyiorio/TreeRingOrigin",
-            "description": "A novel machine learning model that uses Computational Vision to detect where a tree was harvested based on only its tree ring widths. The project aims to prevent illegal logging in the United States by acting as a verification tool to ensure the location of origin of a supplier's lumber before it is sold to a distributor."
+            "description": "A novel machine learning model that uses computational vision to detect where a tree was harvested based on only its tree ring widths. The project aims to prevent illegal logging in the United States by acting as a verification tool to ensure the location of origin of a supplier's lumber before it is sold to a distributor."
         },
         {
             "project": "HealthChat",
             "title": "Creator",
             "link": "https://devpost.com/software/healthchat-yapo3v",
-            "description": "HackRPI X Winner, HealthChat is a Web application that can be used across any device. Its goal is to offer medical information and assistance to those in new or different areas, as well as those just looking for who to see for an issue. HealthChat uses the Bing Chat AI engine in order to combine the power of GPT-4 and Bing to search for what specialty doctor fits a patients medical issue and takes their insurance, as well suggests possible causes."
+            "description": "HackRPI X winner, HealthChat is a web application that can be used across any device. Its goal is to offer medical information and assistance to those in new or different areas, as well as those just looking for who to see for an issue. HealthChat uses the Bing Chat AI engine in order to combine the power of GPT-4 and Bing to search for what specialty doctor fits a patients medical issue and takes their insurance, as well suggests possible causes."
         }
     ],
     "email": "michael.j.anderson@me.com",

@@ -38,7 +38,7 @@ export default function Projects() {
     return(
         <Box sx={{height: 'auto', bgcolor: '#e7ebef'}}>
         <CardContent>
-            <Typography variant='h4' align='center' sx={{margin: '40px', fontFamily: 'montserrat', color: '#6134eb'}}>
+            <Typography variant='h4' align='center' sx={{fontWeight: 'bold', margin: '40px', fontFamily: 'garamond', color: 'black'}}>
                 Projects
             </Typography>
             <Box sx={{margin: '20px'}}>
@@ -51,13 +51,13 @@ export default function Projects() {
                                         <CardActionArea href={value.link} sx={{paddingBottom: '10px', height: '100%'}}>
                                             <CardContent sx={{height: '100%'}}>
                                                 <Avatar src={icons[index]} sx={{margin: '0 auto', height: '60px', width: '60px'}}/>
-                                                <Typography variant="h5" align="center" sx={{fontWeight: 'bold', fontFamily: 'montserrat', marginTop: '10px'}}>
+                                                <Typography variant="h5" align="center" sx={{fontWeight: 'bold', fontFamily: 'garamond', marginTop: '10px'}}>
                                                     {value.project}
                                                 </Typography>
-                                                <Typography align="center" sx={{fontFamily: 'montserrat'}}>
+                                                <Typography align="center" sx={{fontFamily: 'garamond'}}>
                                                     {value.title}
                                                 </Typography>
-                                                <Typography align="center" variant="h4" sx={{fontSize: '13pt', fontFamily: 'montserrat', margin: '10px'}}>
+                                                <Typography align="center" variant="h4" sx={{fontSize: '13pt', fontFamily: 'garamond', margin: '10px'}}>
                                                     {value.description}
                                                 </Typography>
                                             </CardContent>

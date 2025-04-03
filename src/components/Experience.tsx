@@ -8,7 +8,7 @@ import { useEffect, useRef, useState } from "react";
 const Title = {
     fontSize: '22pt',
     textAlign: {xs: 'center', md: 'left'},
-    fontFamily: 'montserrat',
+    fontFamily: 'garamond',
     fontWeight: 'bold',
     marginTop: {xs: '10px', md: '0px'},
     marginLeft: {xs: 'auto', md:'20px'},
@@ -17,7 +17,7 @@ const Title = {
 
 const Position = {
     textAlign: {xs: 'center', md: 'right'},
-    fontFamily: 'montserrat',
+    fontFamily: 'garamond',
     marginLeft: 'auto',
     marginTop: '6px'
 } as const;
@@ -65,7 +65,7 @@ export default function Experience() {
     return(
         <Box sx={{height: 'auto', bgcolor: '#0b1929'}}>
             <CardContent>
-                <Typography variant='h4' align='center' sx={{margin: '40px', fontFamily: 'montserrat', color: '#e7ebef'}}>
+                <Typography variant='h4' align='center' sx={{fontWeight: 'bold', margin: '40px', fontFamily: 'garamond', color: '#e7ebef'}}>
                     Experience
                 </Typography>
                 
