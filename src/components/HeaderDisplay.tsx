@@ -18,14 +18,20 @@ const me_style = {
 const name_style = {
   color: 'white', 
   fontSize: {xs: 'min(13vw, 50pt)', md:'min(13vmax, 50pt)'}, 
-  fontFamily: 'Roboto Mono'
+  fontFamily: "garamond"
 } as const;
 
 const inner_style = {
-  color: 'black', 
+  color: 'white', 
   fontSize: 'min(6vw, 20pt)', 
   fontFamily: "garamond", 
   fontStyle: 'italic'
+} as const
+
+const title_style = {
+  color: 'white', 
+  fontSize: 'min(6vw, 20pt)', 
+  fontFamily: "garamond"
 } as const
 
 
@@ -47,8 +53,8 @@ function HeaderDisplay(): JSX.Element {
         <Typography align='center' variant="h1" sx={name_style}>Michael</Typography>
         <Typography align='center' variant="h1" sx={name_style}>Anderson</Typography>
         <Typography align='center' variant="body1" sx={inner_style}>Software Engineer</Typography>
-        <Typography align='center' variant="body1" sx={inner_style}>What I'm up to right now:</Typography>
-        <Typography align='center' sx={{color: 'black', marginTop: '10px', fontSize: 'min(5vw, 20pt)', fontFamily: "monospace"}}>
+        <Typography align='center' variant="body1" sx={title_style}>What I'm up to right now:</Typography>
+        <Typography align='center' sx={{color: 'white', marginTop: '10px', marginBottom: '80px', fontSize: 'min(5vw, 20pt)', fontFamily: "garamond"}}>
           <Typewriter onInit={(typewriter)=>{
             typewriter.pauseFor(1000).typeString(Info.header).start();
           }}/>

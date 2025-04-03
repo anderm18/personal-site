@@ -14,10 +14,8 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <>
-    <Box sx={{backgroundColor: '#13263a', background: 'linear-gradient(rgba(250,0,0,0.5),transparent)', height: 'auto', backgroundSize: '100%'}}>
-      <Box sx={{backgroundColor: '#13263a', background: 'linear-gradient(transparent, rgba(0,0,250,0.5))',  height: 'auto', backgroundSize: '100%'}}>
-        <HeaderDisplay />
-      </Box>
+    <Box sx={{backgroundColor: '#0b1929',  height: 'auto', backgroundSize: '100%'}}>
+      <HeaderDisplay />
     </Box>
     <About />
     <Experience />
