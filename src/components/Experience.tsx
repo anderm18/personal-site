@@ -1,8 +1,8 @@
 import { Avatar, Box, Button, Card, CardContent, Grow, Typography } from "@mui/material";
 import Info from '../assets/info.json';
-import iconOne from '../assets/icon1.svg';
-import iconTwo from '../assets/icon2.jpeg';
-import iconThree from '../assets/icon3.jpg';
+import iconOne from '../assets/icon1.jpg';
+import iconTwo from '../assets/icon2.svg';
+import iconThree from '../assets/icon3.jpeg';
 import { useEffect, useRef, useState } from "react";
 
 const Title = {

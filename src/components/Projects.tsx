@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, Card, CardActionArea, CardContent, Fade, Grid, Typography } from "@mui/material";
+import { Avatar, Box, Button, Card, CardActionArea, CardContent, Fade, Typography, Grid } from "@mui/material";
 import piconOne from '../assets/project1.png';
 import piconTwo from '../assets/project2.png';
 import piconThree from '../assets/project3.png';

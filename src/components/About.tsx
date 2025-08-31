@@ -1,8 +1,7 @@
 import { Box, Card, CardContent, Typography } from "@mui/material";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type JSX } from "react";
 import Typewriter from 'typewriter-effect';
 import Info from '../assets/info.json';
-
 
 
 function About(): JSX.Element {

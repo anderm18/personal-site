@@ -1,7 +1,11 @@
 {
-    "header":"SWE @ IBM",
+    "header":"SWE @ Microsoft",
     "about-info": "Hello! I'm Michael, I'm a Software Engineer equipped with a strong technical foundation gained from professional, casual, and educational experiences. Since achieving my degree, I've been exploring my passion for innovation and pushing the software world forward. I always try to bring a unique perspective to every project or group that I work with. I strive to deliver the most efficient solution to any problem, allowing for scalability and reliability in what's delivered. I'm always open to new opportunities, so feel free to reach out!",
     "experienceGallery": [
+        {
+            "company": "Microsoft",
+            "position": "Software Engineer"
+        },
         {
             "company": "IBM",
             "position": "Software Engineer / (Prev. Position: SWE Intern)"
@@ -9,10 +13,6 @@
         {
             "company": "Plug Power",
             "position": "Full Stack SWE Intern"
-        },
-        {
-            "company": "Rensselaer Student Union",
-            "position": "Lead Full Stack Developer and System Administrator"
         }
     ],
     "projectGallery": [
