@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, Card, CardActionArea, CardContent, Fade, Grid, Typography } from "@mui/material";
+import { Avatar, Box, Button, Card, CardActionArea, CardContent, Fade, Typography, Grid } from "@mui/material";
 import piconOne from '../assets/project1.png';
 import piconTwo from '../assets/project2.png';
 import piconThree from '../assets/project3.png';
@@ -46,7 +46,7 @@ export default function Projects() {
                     {Info['projectGallery'].map((value, index) => {
                         return(
                             <Fade in={inViewport} style={{transitionDelay: `calc(${index+1} * 800ms)`}} timeout={1000}>
-                                <Grid item xs={12} md={4}>
+                                <Grid size={{xs: 12, md: 4}}>
                                     <Card sx={{height: '100%'}}>
                                         <CardActionArea href={value.link} sx={{paddingBottom: '10px', height: '100%'}}>
                                             <CardContent sx={{height: '100%'}}>
