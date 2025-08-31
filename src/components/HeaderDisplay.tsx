@@ -4,6 +4,7 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 import Typewriter from 'typewriter-effect';
 import Info from '../assets/info.json';
 import Me from '../assets/me.png';
+import type { JSX } from 'react';
 
 const me_style = {
   display: 'block',

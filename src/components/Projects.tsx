@@ -46,7 +46,7 @@ export default function Projects() {
                     {Info['projectGallery'].map((value, index) => {
                         return(
                             <Fade in={inViewport} style={{transitionDelay: `calc(${index+1} * 800ms)`}} timeout={1000}>
-                                <Grid item xs={12} md={4}>
+                                <Grid size={{xs: 12, md: 4}}>
                                     <Card sx={{height: '100%'}}>
                                         <CardActionArea href={value.link} sx={{paddingBottom: '10px', height: '100%'}}>
                                             <CardContent sx={{height: '100%'}}>
